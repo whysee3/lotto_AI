@@ -4,7 +4,7 @@ import random
 import requests
 from collections import Counter, defaultdict
 
-st.set_page_config(page_title="원미의 매직로또 AI", layout="centered")
+st.set_page_config(page_title="개파의 매직로또 AI", layout="centered")
 
 st.markdown(
     """
@@ -21,7 +21,7 @@ st.markdown(
     unsafe_allow_html=True
 )
 
-st.title("🎯 원미의 매직로또 AI")
+st.title("🎯 개파의 매직로또 AI")
 
 def get_ball_color(n):
     if 1 <= n <= 10: return "#fbc400"
